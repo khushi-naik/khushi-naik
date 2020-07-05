@@ -1,0 +1,16 @@
+body{
+    scroll-behavior: smooth;
+}
+header{
+    height: 50%;
+    background-color: rgb(41, 41, 126);
+}
+.arrow-down{
+    width: 0;
+    height: 0;
+    border-top: 150px solid rgb(41, 41, 126);
+    border-left: 683px solid transparent;
+    border-right: 683px solid transparent;
+    
+    
+}
