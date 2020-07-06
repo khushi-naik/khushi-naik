@@ -1,16 +1,37 @@
 body{
     scroll-behavior: smooth;
+    background-color: rgb(195, 241, 241);
 }
-header{
-    height: 50%;
-    background-color: rgb(41, 41, 126);
+nav{
+    background-color: rgb(94, 48, 138);
 }
-.arrow-down{
-    width: 0;
-    height: 0;
-    border-top: 150px solid rgb(41, 41, 126);
-    border-left: 683px solid transparent;
-    border-right: 683px solid transparent;
+.view{
+    height: 100%;
     
+    background-image: url(intro.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 50% 50%;
+}
+
+.icons div{
+    padding: 20%;
+    text-align: center;
     
+}
+.icons p{
+    padding-top: 5%;
+}
+
+.work{
+    margin-left: -10%;
+}
+.work p{
+    padding-top: 3%;
+  
 }
