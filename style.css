@@ -1,6 +1,6 @@
 body{
     scroll-behavior: smooth;
-    background-color: #ccffcc;
+    background-color: #90E0EF;
 }
 nav{
     background-color: #011a5e;
@@ -15,8 +15,13 @@ nav li{
     font-family: 'Roboto Mono', monospace;  
 }
 
+nav a:hover{
+    border-bottom: 2px solid #90E0EF;
+}
+
 .mainh{
     font-family: 'Anton', sans-serif;
+    color: #104F55;
 }
 .view{
     height: 100%;
@@ -76,12 +81,24 @@ nav li{
 .work h2{
     padding-top: 4%;
     font-family: 'Roboto Mono', monospace;
-    font-weight: 600;
+    font-weight: 700;
 }
 .work p{
     text-align: left;
+    font-family: 'Roboto Mono', monospace;
 }
 
+.project{
+    margin-left: 0;
+}
+.project a{
+    margin-left: 2%;
+}
+.project button{
+    padding: 5px 15px;
+    border-radius: 17px;
+    border: 1px solid navy;
+}
 
 .f{
     background-image: url(background/footer.svg);
@@ -90,6 +107,9 @@ nav li{
 
 .contact h3{
     font-family: 'Roboto Mono', monospace;
+}
+.con{
+    padding-top: 3%;
 }
 .con a{
     margin-left: 3%;
@@ -104,6 +124,12 @@ nav li{
     margin-left: 23%;
     border-left: 2px solid navy;
     padding-left: 10%;
+}
+.copyright{
+    background-color: #03045e;
+}
+.copyright a:hover{
+    border-bottom: 2px solid #90E0EF;
 }
 
 

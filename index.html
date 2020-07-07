@@ -26,6 +26,11 @@
           new WOW().init();
         });
       </script>
+      <style>
+        body{
+          scroll-behavior: smooth;
+        }
+      </style>
 </head>
 
 <body>
@@ -41,16 +46,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#About">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#Skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Works</a>
+            <a class="nav-link" href="#Works">Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#Contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -72,7 +77,7 @@
   </header>
 
   <div class="container">
-    <h1 class="mainh">ABOUT</h1>
+    <h1 id="About" class="mainh">ABOUT</h1>
     <div class=" about row">
       
       <img src="background/pp.jpg">
@@ -83,7 +88,7 @@
   </div>
   <div class="container-fluid skill">
   <div class="container wow fadeInUp">
-    <h1 class="mainh">SKILLS AND TOOLS</h1>
+    <h1 id="Skills"class="mainh">SKILLS AND TOOLS</h1>
     <div class="icons">
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32">
@@ -259,7 +264,7 @@
 
 
   <div class="container">
-    <h1 class="mainh">WORK</h1>
+    <h1 id="Works" class="mainh">WORK</h1>
     <div class="row work wow fadeInUp">
 
       <?xml version="1.0" encoding="utf-8"?>
@@ -313,6 +318,10 @@
       <div>
       <h2>GlobeTrotters</h2>
       <p>A place to share and read people's travel<br> experiences.Helps know a place better <br>and plan a trip effeciently. </p>
+      <div class="row project">
+        <a href="https://globetrotters-0820.herokuapp.com/"><button class="aqua-gradient">TRY</button></a>
+        <a href="https://github.com/khushi-naik/GlobeTrotters"><button class="aqua-gradient">REPO</button></a>
+      </div>
       </div>
     </div>
 
@@ -367,14 +376,14 @@
       </svg>
       <div>
       <h2>Gem Certification Tool</h2>
-      <p>A simple tool to get one's gemstone authenticated<br> and produce a certificate for the same<br> keeping complete track of the process.</p>
+      <p>A simple tool to get one's gemstone<br> authenticated and produce a certificate<br> for the same keeping complete track<br> of the process.</p>
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="contact">
-      <h1 class="mainh">CONTACT</h1>
+    <div id="Contact" class="contact">
+      <h1  class="mainh">CONTACT</h1>
      <div style="margin-left: 2%;" class="row con">
        
       <h3>Get in touch</h3>
@@ -384,7 +393,7 @@
           <h3>Find me on: </h3>
           
         </div >
-        <h3 style="margin-left:2%"><a><i class="fab fa-github-alt"></i></a></h3> <h3 style="margin-left:2%"><a><i class="fab fa-linkedin-in"></i></a></h3>
+        <h3 style="margin-left:2%"><a href="https://github.com/khushi-naik"><i class="fab fa-github-alt"></i></a></h3> <h3 style="margin-left:2%"><a href="https://www.linkedin.com/in/khushi-naik-63324b187/"><i class="fab fa-linkedin-in"></i></a></h3>
      </div>
 
 
@@ -395,13 +404,16 @@
   <div class="container-fluid text-center text-md-left f">
 
   </div>
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> Khushi Naik</a>
-  </div>
-  <!-- Copyright -->
+  
 
 </footer>
+<div class="container-fluid copyright">
+<!-- Copyright -->
+<div style="color: azure;" class="footer-copyright text-center py-3">© 2020 Copyright:
+  <a style="color: #90E0EF;;" href="https://github.com/khushi-naik"> Khushi Naik</a>
+</div>
+<!-- Copyright -->
+</div>
 <!-- Footer -->
   <!--Main Navigation-->
   <!-- JQuery -->
