@@ -1,12 +1,13 @@
 body{
     scroll-behavior: smooth;
-    background-color: #b0cac7;
+    background-color: #ccffcc;
 }
 nav{
     background-color: #011a5e;
 }
 nav ul{
     width: 50%;
+    margin-left: 50%;
 }
 nav li{
     padding: 2%;
@@ -19,16 +20,38 @@ nav li{
 }
 .view{
     height: 100%;
-    background-image: url(intro.svg);
+    background-image: url(background/intro.svg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
 }
 
-h1{
-    font-family: 'Notable', sans-serif;
+.about{
+    padding-top: 5%;
 }
+.about img{
+    width: 25%;
+    height: 25%;
+    border-radius: 140px;
+    margin-left: 10%;
+    
+}
+.info{
+    padding-left: 10%;
+}
+.info p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+.skill{
+    background-image: url(background/skill1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 0;
+}
+
 .icons{
     display: grid;
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
@@ -55,3 +78,23 @@ h1{
     font-family: 'Roboto Mono', monospace;
     font-weight: 600;
 }
+
+.contact h1{
+    text-align: center;
+}
+
+.f{
+    background-image: url(background/footer.svg);
+    height: 20%;
+}
+
+.con a{
+    margin-left: 3%;
+}
+.con button{
+    padding: 5px 15px;
+    border-radius: 17px;
+    border: 1px solid navy;
+}
+
+
