@@ -71,23 +71,26 @@ nav li{
 
 .work{
     margin-left: -10%;
-    text-align: center;
+    text-align: left;
 }
 .work h2{
-    padding-top: 3%;
+    padding-top: 4%;
     font-family: 'Roboto Mono', monospace;
     font-weight: 600;
 }
-
-.contact h1{
-    text-align: center;
+.work p{
+    text-align: left;
 }
+
 
 .f{
     background-image: url(background/footer.svg);
     height: 20%;
 }
 
+.contact h3{
+    font-family: 'Roboto Mono', monospace;
+}
 .con a{
     margin-left: 3%;
 }
@@ -96,5 +99,12 @@ nav li{
     border-radius: 17px;
     border: 1px solid navy;
 }
+
+.social{
+    margin-left: 23%;
+    border-left: 2px solid navy;
+    padding-left: 10%;
+}
+
 
 
