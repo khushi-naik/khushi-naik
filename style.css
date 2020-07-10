@@ -79,7 +79,7 @@ nav a:hover{
     text-align: left;
 }
 .work h2{
-    padding-top: 4%;
+    padding-top: 8%;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
 }
@@ -132,5 +132,17 @@ nav a:hover{
     border-bottom: 2px solid #90E0EF;
 }
 
+.q{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3083DC;
+}
+#qual{
+    color: #104F55;
+    font-weight: 800;
+    font-size: 27px;
+    font-family: 'Galada', cursive;
+    letter-spacing: 2px;
+}
 
 
