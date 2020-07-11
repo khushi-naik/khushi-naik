@@ -1,5 +1,11 @@
+
+*{
+    box-sizing: border-box;
+}
+
 body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
     background-color: #90E0EF;
 }
 nav{
@@ -25,6 +31,7 @@ nav a:hover{
 }
 .view{
     height: 100%;
+    margin-left: -20px ;
     background-image: url(background/intro.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,15 +39,24 @@ nav a:hover{
     font-size: 50px;
 }
 
+@media only screen and (max-width: 768px){
+    .view{
+        font-size: 18px;
+        height: 60vw;
+    }
+}
+
+
+
 .about{
     padding-top: 5%;
 }
+
 .about img{
     width: 25%;
     height: 25%;
     border-radius: 140px;
     margin-left: 10%;
-    
 }
 .info{
     padding-left: 10%;
@@ -57,11 +73,27 @@ nav a:hover{
     padding: 15% 0;
 }
 
+@media only screen and (max-width: 768px){
+    .skill{
+        padding: 0% 0;
+    }
+}
+
 .icons{
     display: grid;
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
     grid-template-rows: 50% 50%;
+    grid-auto-flow: row;
 }
+
+@media only screen and (max-width: 768px){
+    .icons{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 16% 16% 16% 16% 16% 16%;
+        grid-auto-flow: column;
+    }
+}
+
 
 .icons div{
     padding: 20%;
@@ -75,8 +107,21 @@ nav a:hover{
 }
 
 .work{
-    margin-left: -10%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
     text-align: left;
+}
+
+@media only screen and (max-width: 768px){
+    .work{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 20px;
+    }
 }
 .work h2{
     padding-top: 8%;
@@ -105,14 +150,20 @@ nav a:hover{
     height: 20%;
 }
 
+.contact{
+    margin-top: 40px;
+}
+
 .contact h3{
+    padding-top: 20px;
     font-family: 'Roboto Mono', monospace;
 }
 .con{
     padding-top: 3%;
 }
 .con a{
-    margin-left: 3%;
+    margin-left: 2%;
+    margin-top: 20px;
 }
 .con button{
     padding: 5px 15px;
@@ -124,6 +175,14 @@ nav a:hover{
     margin-left: 23%;
     border-left: 2px solid navy;
     padding-left: 10%;
+}
+
+@media only screen and (max-width: 768px){
+    .social{
+        border: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
 }
 .copyright{
     background-color: #03045e;
@@ -143,10 +202,4 @@ nav a:hover{
     font-size: 27px;
     font-family: 'Galada', cursive;
     letter-spacing: 2px;
-}
-
-@media only screen and (max-width: 768px){
-    .view{
-        height: 30vh;
-    }
 }
