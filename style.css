@@ -3,22 +3,22 @@
     box-sizing: border-box;
 }
 
+
 body{
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-color: #90E0EF;
 }
+
 nav{
     background-color: #011a5e;
+    padding: 0;
 }
-nav ul{
-    width: 50%;
-    margin-left: 50%;
-}
+
 nav li{
-    padding: 2%;
-    padding-right: 10%; 
-    font-family: 'Roboto Mono', monospace;  
+    
+    font-family: 'Roboto Mono', monospace; 
+    text-align: center;
 }
 
 nav a:hover{
@@ -31,7 +31,6 @@ nav a:hover{
 }
 .view{
     height: 100%;
-    margin-left: -20px ;
     background-image: url(background/intro.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,25 +40,34 @@ nav a:hover{
 
 @media only screen and (max-width: 768px){
     .view{
-        font-size: 18px;
-        height: 60vw;
+        font-size: 19px;
+        width: 100%;
+        overflow: hidden;
+        height: auto;
     }
 }
 
 
 
 .about{
-    padding-top: 5%;
+    padding-top: 20px;
 }
 
 .about img{
-    width: 25%;
-    height: 25%;
+    width: 250px;
+    height: 250px;
     border-radius: 140px;
-    margin-left: 10%;
+    margin-left: 100px;
+}
+@media only screen and (max-width: 768px){
+    .about img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .info{
-    padding-left: 10%;
+    padding-left: 50px;
 }
 .info p{
     font-family: 'Roboto Mono', monospace;
@@ -70,12 +78,15 @@ nav a:hover{
     background-image: url(background/skill1.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 15% 0;
+    padding: 100px 0;
 }
 
 @media only screen and (max-width: 768px){
     .skill{
-        padding: 0% 0;
+        padding: 50px 0;
+    }
+    .info{
+        padding-left: 5px;
     }
 }
 
@@ -88,8 +99,8 @@ nav a:hover{
 
 @media only screen and (max-width: 768px){
     .icons{
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 16% 16% 16% 16% 16% 16%;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 33% 33% 33%;
         grid-auto-flow: column;
     }
 }
@@ -107,22 +118,11 @@ nav a:hover{
 }
 
 .work{
-    margin: 0px;
     display: flex;
     flex-direction: row;
     text-align: left;
 }
 
-@media only screen and (max-width: 768px){
-    .work{
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        width: 100vw;
-        margin-top: 20px;
-    }
-}
 .work h2{
     padding-top: 8%;
     font-family: 'Roboto Mono', monospace;
@@ -131,6 +131,25 @@ nav a:hover{
 .work p{
     text-align: left;
     font-family: 'Roboto Mono', monospace;
+}
+
+@media only screen and (max-width: 768px){
+    
+    .work{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        margin: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .work h2,p{
+        text-align: center;
+    }
 }
 
 .project{
