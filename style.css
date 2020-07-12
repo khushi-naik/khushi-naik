@@ -8,11 +8,13 @@ body{
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-color: #90E0EF;
+    margin: 0;
 }
 
 nav{
     background-color: #011a5e;
     padding: 0;
+    overflow-x: hidden;
 }
 
 nav li{
@@ -42,8 +44,18 @@ nav a:hover{
     .view{
         font-size: 19px;
         width: 100%;
-        overflow: hidden;
-        height: auto;
+        overflow-x: hidden;
+        height: 30%;
+        background-size: 60vh;
+        margin-left: 0px;
+        margin-bottom: 0;
+    }
+
+
+    .intro-khushi{
+        margin-top: -20px;
+        font-size: 1rem;
+        
     }
 }
 
@@ -58,12 +70,17 @@ nav a:hover{
     height: 250px;
     border-radius: 140px;
     margin-left: 100px;
+    border: 8px solid #3083DC;
 }
 @media only screen and (max-width: 768px){
     .about img{
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .info{
+        font-size: 0.1rem;
     }
 }
 .info{
@@ -81,12 +98,23 @@ nav a:hover{
     padding: 100px 0;
 }
 
+
+
 @media only screen and (max-width: 768px){
     .skill{
-        padding: 50px 0;
+        padding: 0;
+        background-size: 160%;
     }
     .info{
-        padding-left: 5px;
+       padding-top: 20px;
+    }
+
+    .info p{
+        font-size: 0.7rem;
+    }
+
+    .info span{
+        font-size: 0.7rem;
     }
 }
 
@@ -99,8 +127,8 @@ nav a:hover{
 
 @media only screen and (max-width: 768px){
     .icons{
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 25% 25% 25% 25%;
         grid-auto-flow: column;
     }
 }
@@ -140,7 +168,6 @@ nav a:hover{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 100vw;
         margin: 20px;
     }
 }
@@ -167,6 +194,21 @@ nav a:hover{
 .f{
     background-image: url(background/footer.svg);
     height: 20%;
+}
+
+@media only screen and (max-width: 768px){
+    work{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+     p, h2{
+        text-align: center;
+        font-size: 0.9rem;
+    }
 }
 
 .contact{
