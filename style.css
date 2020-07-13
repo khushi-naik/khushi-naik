@@ -171,6 +171,7 @@ nav a:hover{
 
 .work h2{
     padding-top: 8%;
+    
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
 }
@@ -183,11 +184,13 @@ nav a:hover{
     .laptop{
         display: block;
         margin: 0 auto;
-        width: 300px;
+        
         
     }
     .work{
         text-align: center;
+        align-items: center;
+
         display: flex;
         justify-content: center;
         flex-direction: column;
