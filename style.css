@@ -81,6 +81,16 @@ nav a:hover{
     margin-left: 100px;
     border: 8px solid #3083DC;
 }
+
+.info{
+    padding-left: 50px;
+}
+.info p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 768px){
     .about img{
         display: block;
@@ -90,16 +100,14 @@ nav a:hover{
 
     .info{
         font-size: 0.1rem;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
     }
 }
-.info{
-    padding-left: 50px;
-}
-.info p{
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 500;
-    font-size: 20px;
-}
+
 .skill{
     background-image: url(background/skill1.svg);
     background-repeat: no-repeat;
@@ -112,7 +120,8 @@ nav a:hover{
 @media only screen and (max-width: 768px){
     .skill{
         padding: 0;
-        background-size: 160%;
+        background-size: 250%;
+        background-position: center;
     }
     .info{
        padding-top: 20px;
@@ -134,13 +143,7 @@ nav a:hover{
     grid-auto-flow: row;
 }
 
-@media only screen and (max-width: 768px){
-    .icons{
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 25% 25% 25% 25%;
-        grid-auto-flow: column;
-    }
-}
+
 
 
 .icons div{
@@ -153,7 +156,13 @@ nav a:hover{
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
 }
-
+@media only screen and (max-width: 768px){
+    .icons{
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-auto-flow: column;
+    }
+}
 .work{
     display: flex;
     flex-direction: row;
@@ -171,7 +180,12 @@ nav a:hover{
 }
 
 @media only screen and (max-width: 768px){
-    
+    .laptop{
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        
+    }
     .work{
         text-align: center;
         display: flex;
@@ -179,14 +193,16 @@ nav a:hover{
         flex-direction: column;
         margin: 20px;
     }
-}
-
-
-@media only screen and (max-width: 768px){
-    .work h2,p{
+    .work p{
         text-align: center;
     }
+    .des{
+        margin-top: -25px;
+    }
 }
+
+
+
 
 .project{
     margin-left: 0;
