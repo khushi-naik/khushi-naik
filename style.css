@@ -32,14 +32,21 @@ nav a:hover{
     color: #104F55;
 }
 .view{
-    height: 100%;
+    height: 65%;
     background-image: url(background/intro.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
+    
 }
 
+.intro-khushi{
+    margin-top: -100px;
+    
+    
+}
 @media only screen and (max-width: 768px){
     .view{
         font-size: 19px;
@@ -47,13 +54,14 @@ nav a:hover{
         overflow-x: hidden;
         height: 30%;
         background-size: 60vh;
+        background-position: center;
         margin-left: 0px;
         margin-bottom: 0;
     }
 
 
     .intro-khushi{
-        margin-top: -20px;
+        margin-top: 2px;
         font-size: 1rem;
         
     }
