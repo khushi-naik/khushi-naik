@@ -1,10 +1,9 @@
 <div align="center">
 
-# Hi, I'm Khushi Naik 👋
+# 👋 Hi, I'm Khushi! 
 
-### Software Engineer | AI & AR Enthusiast | MS Electrical & Computer Engineering @ McGill University
+### Software Engineer | MSc. Electrical & Computer Engineering @ McGill University
 
-[![Email](https://img.shields.io/badge/Email-naik.khushi5423%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naik.khushi5423@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-khushinaik20-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/khushinaik20)
 [![GitHub](https://img.shields.io/badge/GitHub-khushi--naik-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/khushi-naik)
 
@@ -14,10 +13,10 @@
 
 ## About Me
 
-- Pursuing an **MS in Electrical & Computer Engineering** at **McGill University** (GPA: 4.0/4.0), Aug 2023 to May 2026
-- Previously an **Associate Software Engineer** at **Ericsson R&D**, building backend billing systems for a production charging platform
-- Research Assistant at McGill, building a real time AR patient monitoring app for HoloLens 2
-- **B.Tech in Information Technology** from IIIT Vadodara (GPA: 8.23/10)
+- I recently completed an **MSc. in Electrical & Computer Engineering** at **McGill University** (GPA: 4.0/4.0), Aug 2023 to May 2026
+- Previously, I worked as an **Associate Software Engineer** at **Ericsson R&D**, where I built backend billing systems for a production charging platform
+- Currently working as a **Research Assistant** at McGill. Worked across multiple projects such as an AR patient monitoring app for HoloLens 2 and research on digital tools for survivors of gender-based violence.
+- **B.Tech in Information Technology** from IIIT Vadodara, India (GPA: 8.23/10)
 - Authorized to work in Canada (PGWP valid until July 2029), no sponsorship required
 - Enjoy mentoring: taught 50+ students in Data Structures & Algorithms and Human-Computer Interaction, and led Python and Web Development workshops for 30+ girls through GoGirl India
 
@@ -27,9 +26,9 @@
 
 **Languages & Databases**
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -39,12 +38,12 @@
 
 **Cloud & Infrastructure**
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
 **Frameworks & Tools**
 
@@ -67,13 +66,13 @@
 ## Experience
 
 **Associate Software Engineer** at Ericsson R&D *(Jan 2022 to Jul 2023)*
-Designed and developed backend billing features in Java and Python for the Ericsson Charging System, migrated 60+ legacy tests to JUnit, and resolved critical CI/CD pipeline issues using Jenkins within an Agile, Jira-tracked team.
+Designed and developed backend billing features in Java and Python for the Ericsson Charging System, migrated 60+ legacy tests to JUnit, and resolved critical CI/CD pipeline issues using Jenkins.
 
 **Research Assistant, Software Engineering** at McGill University *(Sep 2023 to May 2026)*
-End to end development of a HoloLens 2 AR app in Unity and C#, improving alarm detection accuracy by 18% and reducing clinician response time by 8.1%, backed by CAD $37,000 in NSERC funding.
+End-to-end development of a HoloLens 2 AR app in Unity and C#, improving alarm detection accuracy by 18% and reducing clinician response time by 8.1%, backed by CAD $37,000 in NSERC funding.
 
 **Software Development Intern** at Unify Technologies *(May 2021 to Aug 2021)*
-Built a Linux based file integrity monitoring system using Apache Kafka, SQL, and C++ for real time security alerting.
+Built a Linux-based file integrity monitoring system using Apache Kafka, SQL, and C++ for real-time security alerting.
 
 <br>
 
@@ -96,20 +95,3 @@ Multiplayer turn-based web app with real time WebSocket synchronization, refined
 - Received CAD $37,000 in NSERC funding for the AR vital signs monitor project
 - Mentored 50+ students across Data Structures & Algorithms and Human-Computer Interaction courses at McGill University
 - Managed the Hyderabad chapter of GoGirl India, delivering Python and Web Development workshops to 30+ girls from underserved communities
-
-<br>
-
-## GitHub Stats
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=khushi-naik&show_icons=true&theme=default&hide_border=true" height="165" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khushi-naik&layout=compact&hide_border=true" height="165" alt="Top languages"/>
-</div>
-
-<br>
-
-<div align="center">
-
-Reach me at **naik.khushi5423@gmail.com** or on [LinkedIn](https://linkedin.com/in/khushinaik20)
-
-</div>
